@@ -38,6 +38,10 @@ namespace Com.DanLiris.Service.Purchasing.Lib.Models.GarmentExternalPurchaseOrde
         public string IncomeTaxRate { get; set; }
 
         public bool IsUseVat { get; set; }
+
+        public int VatId { get; set; }
+        public double VatRate { get; set; }
+
         public string Category { get; set; }
         public string Remark { get; set; }
         public bool IsPosted { get; set; }
